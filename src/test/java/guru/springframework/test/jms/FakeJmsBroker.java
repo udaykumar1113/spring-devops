@@ -7,6 +7,9 @@ public class FakeJmsBroker {
     private String user;
     private String password;
 
+    public FakeJmsBroker() {
+    }
+
     public String getUrl() {
         return url;
     }
